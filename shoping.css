@@ -1,0 +1,66 @@
+header {
+    position: fixed;
+    display: flex;
+justify-content: space-between;
+border: 1px solid black ;
+top: 0%;
+right: 0%;
+left: 0%;
+background-color: rgb(199, 184, 184);
+height: 15%;
+}
+header img{
+    width: 15%;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  header ul li {
+    margin: 10px;
+    list-style: none;
+    color:white;
+  }
+main h1 {
+margin: 150px;
+text-align: center;
+size: 150px;
+  }
+.title {
+    display: flex;
+justify-content: space-between;
+width: 600px;
+}
+
+.produits div{
+    display: flex;
+    justify-content: space-between;
+  
+}
+img{
+    width: 50px;
+}
+.somme-total {
+    border: 2px solid black;
+    margin: 100px 600px;
+    padding: 50px 50px;
+  text-align: center;
+  color: blue;
+  font-family: monospace;
+  font-size:x-large;
+  background-color: chartreuse;
+}
+
+.css{
+  padding: 0 20px;
+
+} 
+
+.red{
+  color:  white;
+  border:  1px solid indigo;
+  
+}
+
+

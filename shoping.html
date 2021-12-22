@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="./image/istockphoto-1128229893-612x612.jpg"
+    />
+    <link rel="stylesheet" href="./shoping.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Shopping </title>
+  </head>
+  <body>
+    <header>
+      <img src="./image/images.png" />
+      <ul>
+        <li>Home</li>
+        <li>Prod</li>
+        <li>CONTACT US</li>
+        <li>LOG IN</li>
+      </ul>
+    </header>
+    <main>
+      <h1>WELCOME</h1>
+
+      <section class="produits">
+        <div>
+          <h5>PRODUCT</h5>
+          <h5>PRICE</h5>
+          <h5>QUANTITY</h5>
+          <h5>TOTAL</h5>
+          <i class="fas fa-backspace"></i>
+        </div>
+        <hr />
+        <section id="remove-all">
+        <div class="product">
+          <img src="./image/image-1.jpg" />
+          <p><span class="PRICE"> 120</span>$</p>
+          <p>
+            <button type="button" class="btn-plus">+</button> <span>1</span>
+            <button type="button" class="btn-minus">-</button>
+          </p>
+          <p><span class="somme"> 120</span>$  <i onclick="myFunction(this)" class="fas fa-heart css"></i> <i class="fas fa-trash"></i></p>
+         
+        </div>
+        <div class="product">
+          <img src="./image/image-2.jpg" />
+          <p><span class="PRICE"> 200 </span>$</p>
+          <p>
+            <button type="button" class="btn-plus">+</button> <span>1</span>
+            <button type="button" class="btn-minus">-</button>
+          </p>
+          <p><span class="somme">200</span>$  <i onclick="myFunction(this)" class="fas fa-heart css"></i> <i class="fas fa-trash"></i></p>
+         
+        </div>
+        <div class="product">
+          <img src="./image/image-3.jpg" />
+          <p><span class="PRICE">20</span>$</p>
+          <p>
+            <button type="button" class="btn-plus">+</button>
+            <span>1</span>
+            <button type="button" class="btn-minus">-</button>
+          </p>
+          <p><span class="somme"> 20</span>$ <i class="fas fa-heart css"></i> <i class="fas fa-trash"></i></p> 
+        </div>
+      </section>
+
+      </section>
+      <section class="somme-total">
+        <h2>Order Summary</h2>
+        <div>
+          <h5>Subtotal</h5>
+          <p><span id="prix-total"> 340 </span> $</p>
+        </div>
+        <div class="prix-livraison">
+          <h5>Shipping</h5>
+          <p><span>5</span>$</p>
+        </div>
+        <div>
+          <h5>TOTAL</h5>
+          <p><span id="total"> 345</span>$</p>
+        </div>
+        <h3>CHECKOUT</h3>
+      </section>
+    </main>
+    <footer>
+      <input type="text" placeholder="Adresse Mail" />
+      <input type="text" placeholder="number" />
+    </footer>
+    <script src="./shoping.js"></script>
+  </body>
+</html>
